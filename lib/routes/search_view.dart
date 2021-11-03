@@ -1,3 +1,4 @@
+import 'package:cs310_footwear_project/ui/navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 
@@ -12,8 +13,8 @@ class _SearchViewState extends State<SearchView> {
   @override
   Widget build(BuildContext context) {
     print("SearchView build is called.");
-    return Scaffold(
-
+    return const Scaffold(
+      bottomNavigationBar: const NavigationBar(),
     );
   }
 }
