@@ -11,6 +11,7 @@ class OnSaleView extends StatefulWidget {
 class _OnSaleViewState extends State<OnSaleView> {
   @override
   Widget build(BuildContext context) {
+    print("OnSaleView build is called.");
     return Scaffold(
 
     );

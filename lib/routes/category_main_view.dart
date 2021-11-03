@@ -11,6 +11,7 @@ class CategoryMainView extends StatefulWidget {
 class _CategoryMainViewState extends State<CategoryMainView> {
   @override
   Widget build(BuildContext context) {
+    print("CategoryMainView build is called.");
     return Scaffold(
       
     );

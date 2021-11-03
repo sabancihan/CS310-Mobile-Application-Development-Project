@@ -11,6 +11,7 @@ class SearchView extends StatefulWidget {
 class _SearchViewState extends State<SearchView> {
   @override
   Widget build(BuildContext context) {
+    print("SearchView build is called.");
     return Scaffold(
 
     );

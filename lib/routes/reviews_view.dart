@@ -11,6 +11,7 @@ class ReviewsView extends StatefulWidget {
 class _ReviewsViewState extends State<ReviewsView> {
   @override
   Widget build(BuildContext context) {
+    print("ReviewsView build is called.");
     return Scaffold(
 
     );

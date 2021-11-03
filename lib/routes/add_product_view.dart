@@ -11,6 +11,7 @@ class AddProductView extends StatefulWidget {
 class _AddProductViewState extends State<AddProductView> {
   @override
   Widget build(BuildContext context) {
+    print("AddProductView build is called.");
     return Scaffold(
 
     );

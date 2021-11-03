@@ -11,6 +11,7 @@ class EditProfileView extends StatefulWidget {
 class _EditProfileViewState extends State<EditProfileView> {
   @override
   Widget build(BuildContext context) {
+    print("EditProfileView build is called.");
     return Scaffold(
 
     );

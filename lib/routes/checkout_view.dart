@@ -11,6 +11,7 @@ class CheckoutView extends StatefulWidget {
 class _CheckoutViewState extends State<CheckoutView> {
   @override
   Widget build(BuildContext context) {
+    print("CheckoutView build is called.");
     return Scaffold(
 
     );

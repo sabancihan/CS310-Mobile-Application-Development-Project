@@ -11,6 +11,7 @@ class CategorySelectedView extends StatefulWidget {
 class _CategorySelectedViewState extends State<CategorySelectedView> {
   @override
   Widget build(BuildContext context) {
+    print("CategorySelectedView build is called.");
     return Scaffold(
 
     );

@@ -11,6 +11,7 @@ class DescriptionView extends StatefulWidget {
 class _DescriptionViewState extends State<DescriptionView> {
   @override
   Widget build(BuildContext context) {
+    print("DescriptionView build is called.");
     return Scaffold(
 
     );

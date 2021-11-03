@@ -11,6 +11,7 @@ class CommentApproveView extends StatefulWidget {
 class _CommentApproveViewState extends State<CommentApproveView> {
   @override
   Widget build(BuildContext context) {
+    print("CommentApproveView build is called.");
     return Scaffold(
 
     );

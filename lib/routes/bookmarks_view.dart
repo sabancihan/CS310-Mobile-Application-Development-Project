@@ -11,6 +11,7 @@ class BookmarksView extends StatefulWidget {
 class _BookmarksViewState extends State<BookmarksView> {
   @override
   Widget build(BuildContext context) {
+    print("BookmarksView build is called.");
     return Scaffold(
 
     );

@@ -11,6 +11,7 @@ class OrdersView extends StatefulWidget {
 class _OrdersViewState extends State<OrdersView> {
   @override
   Widget build(BuildContext context) {
+    print("OrdersView build is called.");
     return Scaffold(
 
     );

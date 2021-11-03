@@ -11,6 +11,7 @@ class CartView extends StatefulWidget {
 class _CartViewState extends State<CartView> {
   @override
   Widget build(BuildContext context) {
+    print("CartView build is called.");
     return Scaffold(
 
     );

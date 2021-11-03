@@ -11,6 +11,7 @@ class SizeChartView extends StatefulWidget {
 class _SizeChartViewState extends State<SizeChartView> {
   @override
   Widget build(BuildContext context) {
+    print("SizeChartView build is called.");
     return Scaffold(
 
     );

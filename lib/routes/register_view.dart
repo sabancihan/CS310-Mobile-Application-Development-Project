@@ -11,6 +11,7 @@ class RegisterView extends StatefulWidget {
 class _RegisterViewState extends State<RegisterView> {
   @override
   Widget build(BuildContext context) {
+    print("RegisterView build is called.");
     return Scaffold(
 
     );

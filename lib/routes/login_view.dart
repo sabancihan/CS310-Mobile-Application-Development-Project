@@ -11,6 +11,7 @@ class LoginView extends StatefulWidget {
 class _LoginViewState extends State<LoginView> {
   @override
   Widget build(BuildContext context) {
+    print("LoginView build is called.");
     return Scaffold(
 
     );

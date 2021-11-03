@@ -11,6 +11,7 @@ class CommentsView extends StatefulWidget {
 class _CommentsViewState extends State<CommentsView> {
   @override
   Widget build(BuildContext context) {
+    print("CommentsView build is called.");
     return Scaffold(
 
     );
